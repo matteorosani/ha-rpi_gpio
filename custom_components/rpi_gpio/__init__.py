@@ -12,9 +12,7 @@ from homeassistant.helpers.typing import ConfigType
 
 DOMAIN = "rpi_gpio"
 PLATFORMS = [
-    Platform.BINARY_SENSOR,
-    Platform.COVER,
-    Platform.SWITCH,
+    Platform.VALVE,
 ]
 
 
